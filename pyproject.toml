@@ -11,7 +11,9 @@ dependencies = [
     "datasets>=5.1.0",
     "numpy>=2.4.6",
     "tiktoken>=0.14.0",
+    "torch>=2.14.1",
     "tqdm>=4.70.1",
+    "transformers[torch]>=5.20.2",
 ]
 
 [project.scripts]
